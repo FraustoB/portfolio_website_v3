@@ -7,7 +7,7 @@ const NavbarWhole = () => {
     <Navbar bg="dark" variant="dark" fixed="top">
       <Container>
         <Nav className="me-auto">
-          <Navbar.Brand href="HeaderText">{`</f.d>`}</Navbar.Brand>
+          <Navbar.Brand href="">{`</f.d>`}</Navbar.Brand>
           <Nav.Link href="#About">About</Nav.Link>
           <Nav.Link href="#Skills">Skills</Nav.Link>
           <Nav.Link href="#Projects">Projects</Nav.Link>
