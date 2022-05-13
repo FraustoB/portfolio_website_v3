@@ -1,4 +1,16 @@
 .Skills-main {
   min-height: 100vh;
   background-color: #73797d;
+  padding-top: 5rem;
+  h4 {
+    margin-bottom: 4rem;
+  }
 }
+
+.skill-gap {
+  margin-bottom: 3rem;
+}
+
+// .grid-container {
+//   grid-template-columns: repeat(3, 5rem, [col-start]);
+// }
