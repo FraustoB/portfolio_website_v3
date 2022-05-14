@@ -20,7 +20,7 @@ const Resume = () => {
         <div className="Icons-container">
           <FaLinkedin size={75} />
           <a
-            href="https://docs.google.com/document/d/1oioq11blSa_0rQY0p_s70JdyeM1fAd2SAdv_RqAn6II/edit?usp=sharing"
+            href="https://www.linkedin.com/in/brandon-s-frausto-13a712213/"
             target="_blank"
             className="Resume-links"
           >
@@ -30,7 +30,7 @@ const Resume = () => {
         <div className="Icons-container">
           <FaGithubAlt size={75} />
           <a
-            href="https://docs.google.com/document/d/1oioq11blSa_0rQY0p_s70JdyeM1fAd2SAdv_RqAn6II/edit?usp=sharing"
+            href="https://github.com/FraustoB"
             target="_blank"
             className="Resume-links"
           >
