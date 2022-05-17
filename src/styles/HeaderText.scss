@@ -11,11 +11,23 @@ $base-color: azure;
   text-align: left;
   font-size: 4rem;
   margin: 1rem 0 0 2rem;
+  justify-content: left;
 }
 
 .Main-text {
   color: $base-color;
   font-size: 1.5rem;
   margin: 2rem 0 0 2rem;
+  text-align: left;
+}
+
+.Header-Resume {
+  color: $base-color;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.Header-Resume:visited {
+  color: $base-color;
   text-align: left;
 }

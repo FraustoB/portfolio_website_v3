@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <div id="Skills">
       <main className="Skills-main">
-        <h4>What I can do well</h4>
+        <h3>What I can do well</h3>
         <div className="container">
           <div className="row skill-gap">
             <div className="col react-icons">

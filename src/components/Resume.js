@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <div id="Resume" className="Resume-container">
       <main className="Resume-main">
-        <h1>Important Links!</h1>
+        <h1>Connect With Me</h1>
         <div className="Icons-container">
           <BiSpreadsheet size={75} />
           <a
@@ -14,7 +14,7 @@ const Resume = () => {
             target="_blank"
             className="Resume-links"
           >
-            RESUME LINK
+            RESUME
           </a>
         </div>
         <div className="Icons-container">

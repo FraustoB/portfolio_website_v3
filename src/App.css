@@ -1,3 +1,8 @@
+@font-face {
+  font-family: league Spartan;
+  src: url(C:\Users\PandaShi\playtests\portfolio_bootstrap\src\LeagueSpartan-Bold.otf);
+}
+
 .App {
   text-align: center;
 }
@@ -40,3 +45,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* body {
+  font-family: league Spartan;
+} */

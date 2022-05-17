@@ -12,7 +12,16 @@ const HeaderText = () => {
           <br />
           Frausto
         </h1>
+
         <p className="Main-text">Web Developer</p>
+
+        {/* <a
+          className="Header-Resume"
+          href="https://docs.google.com/document/d/1oioq11blSa_0rQY0p_s70JdyeM1fAd2SAdv_RqAn6II/edit#"
+          target="_blank"
+        >
+          Resume
+        </a> */}
       </main>
     </div>
   );

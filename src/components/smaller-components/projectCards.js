@@ -1,4 +1,3 @@
-import react from "react";
 const ProjectCards = ({
   projectTitle,
   projectComment,
@@ -10,7 +9,13 @@ const ProjectCards = ({
     width: "18rem",
     marginTop: "1rem",
   };
-
+  const linkStyle = {
+    background: "#7a7c80",
+    borderRadius: "10px",
+    padding: "0.3rem",
+    color: "white",
+    fontWeight: "600",
+  };
   return (
     <div>
       <div className="card text-dark bg-white" style={divStyle}>
@@ -18,10 +23,20 @@ const ProjectCards = ({
           <h5 className="card-title">{projectTitle}</h5>
           <h6 className="card-subtitle mb-2 text-muted">{projectComment}</h6>
           <p className="card-text">{projectInfo}</p>
-          <a href={liveSiteLink} className="card-link" target="_blank">
+          <a
+            href={liveSiteLink}
+            className="card-link"
+            style={linkStyle}
+            target="_blank"
+          >
             Live Site
           </a>
-          <a href={sourceCodeLink} className="card-link" target="_blank">
+          <a
+            href={sourceCodeLink}
+            className="card-link"
+            style={linkStyle}
+            target="_blank"
+          >
             Source Code
           </a>
         </div>

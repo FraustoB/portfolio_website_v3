@@ -6,8 +6,8 @@ const About = () => {
   return (
     <div id="About" className="About-container">
       <main className="About-main">
-        <h1>So... Who Am I?</h1>
-        <h2>I am </h2>
+        <h1>Who am I?</h1>
+        <h2>I am... </h2>
         <Cards
           title=" A Problem Solver"
           tagline="Yes, I work to fix things"
@@ -27,8 +27,8 @@ const About = () => {
         <Cards
           title="Persistence"
           tagline="The world keeps growing and so will I"
-          info="Life is changing all the time; new technologies are being created, shipped, and integrated. And my goal is to stay at the for
-           front of those changes. I continue to adapt by researching, learning, and implementing  "
+          info="Life is changing all the time; new technologies are being created, shipped, and integrated. And my goal is to stay at the forefront 
+          of those changes. I continue to adapt by researching, learning, and implementing  "
         />
       </main>
     </div>
