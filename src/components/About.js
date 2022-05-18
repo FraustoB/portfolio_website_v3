@@ -11,18 +11,22 @@ const About = () => {
         <Cards
           title=" A Problem Solver"
           tagline="Yes, I work to fix things"
-          info="This is where I will put info about myself"
+          info="I almost cannot allow myself to let a problem go unsolved. I'll wrack by brain for hours figuring out different
+          possible solutions, searching the web for answers, and talking with others and brainstorming together. Even if that means
+          coming back to the problem with a fresh mindset at a later time, a problem I run into will not go unsolved."
         />
         <Cards
           title=" A Power Lifter"
           tagline="Heavy Circles Are Fun"
-          info="Of my favorite hobbys, of which would be powerlifting"
+          info="Power lifting has been an enjoyable hobby of mine for over a year now. Not only is training
+          for competitive meets incredibly enjoyable, the community itslef would be the highlight of the sport."
         />
 
         <Cards
           title=" A People Person"
           tagline="Working with others is the reward"
-          info="I believe that some (not all) of the best solutions come from collboration"
+          info="I believe that some (not all) of the best solutions come from collboration. Talking with one another, picking each other's
+          brain, and "
         />
         <Cards
           title="Persistence"

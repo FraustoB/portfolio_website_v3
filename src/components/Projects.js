@@ -4,12 +4,12 @@ import ProjectCards from "./smaller-components/projectCards";
 const Projects = () => {
   const h1Style = {
     color: "azure",
-    marginTop: "4rem",
+    marginTop: "5rem",
   };
   return (
     <div id="Projects">
       <main className="Projects-main">
-        <h1 style={h1Style}>PROJECTS</h1>
+        <h2 style={h1Style}>PROJECTS</h2>
         <ProjectCards
           projectTitle="Kilometer to Pounds Converter"
           projectComment="Converting the weight"

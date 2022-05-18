@@ -11,7 +11,7 @@ const NavbarWhole = () => {
     <Navbar bg="dark" variant="dark" fixed="top">
       <Container>
         <Nav className="me-auto">
-          <Navbar.Brand href="">{`</f.d>`}</Navbar.Brand>
+          <Navbar.Brand href="/Intro">{`</f.d>`}</Navbar.Brand>
           <Nav.Link href="#About" style={navStyles}>
             About
           </Nav.Link>
