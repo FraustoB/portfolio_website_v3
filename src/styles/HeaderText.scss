@@ -33,16 +33,12 @@ $base-color: azure;
 }
 
 .Header-Underscore {
-  animation: blink 0.75s linear infinite;
+  animation: blink-animation 0.75s steps(5, start) infinite;
   margin-left: -1rem;
 }
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
   }
 }
 
