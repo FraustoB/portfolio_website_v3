@@ -6,11 +6,9 @@ const HeaderText = () => {
     <div id="Intro" className="HeaderText-main">
       <main>
         <h1 className="Name-text">
-          Brandon
-          <br />
-          Shin
-          <br />
-          Frausto
+          <div>Brandon</div>
+          <div>Shin</div>
+          <div>Frausto</div>{" "}
         </h1>
 
         <p className="Main-text">Web Developer</p>
@@ -22,6 +20,10 @@ const HeaderText = () => {
         >
           Resume
         </a> */}
+
+        <p className="Header-P">
+          {`</>`} <span className="Header-Underscore">{`_`}</span>
+        </p>
       </main>
     </div>
   );
