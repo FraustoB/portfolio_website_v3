@@ -8,39 +8,62 @@ $base-color: azure;
 
 .Main-text {
   color: $base-color;
-  font-size: 1.5rem;
-  margin: 2rem 0 0 2rem;
+  font-size: 2.3rem;
+  margin: 2rem 0.5rem 0.8rem;
   text-align: left;
+  font-style: Helvetica;
+
+  // outline: 1px red solid;
+  border-right: 0.1em solid white; /* The typwriter cursor */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
 }
 
-.Header-Resume {
-  color: $base-color;
-  font-size: 1.5rem;
-  text-decoration: underline;
-}
-
-.Header-Resume:visited {
-  color: $base-color;
-  text-align: left;
-}
+/* The typewriter cursor effect */
 
 .Header-P {
   color: white;
-  font-size: 4rem;
   font-style: League Spartan;
   padding-top: 4rem;
   padding-right: -1rem;
+  width: 85vw;
+  // outline: 1px solid blue;
 }
 
-.Header-Underscore {
-  animation: blink-animation 0.75s steps(5, start) infinite;
-  margin-left: -1rem;
-}
-@keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
-}
+// .Header-Underscore {
+//   animation: blink-animation 0.75s steps(5, start) infinite;
+//   margin-left: -1rem;
+//   font-style: helvetica;
+//   color: white;
+//   font-size: 4rem;
+//   outline: 1px solid red;
+//   padding-top: none;
+// }
+// @keyframes blink-animation {
+//   to {
+//     visibility: hidden;
+//   }
+// }
 
 .Name-text {
   color: $base-color;
