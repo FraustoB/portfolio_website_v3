@@ -23,3 +23,9 @@
   //   grid-template-columns: 1fr 1fr;
   // }
 }
+.Projects-card-hover {
+  transition-duration: 0.5s;
+}
+.Projects-card-hover:hover {
+  transform: translatey(-10px);
+}

@@ -5,16 +5,18 @@ import Cards from "./smaller-components/cards";
 const About = () => {
   return (
     <div id="About" className="About-container">
+      <div className="h1">Who am I?</div>
+      <h2>I am... </h2>
       <main className="About-main">
-        <div className="h1">Who am I?</div>
-        <h2>I am... </h2>
         <Cards
           title=" A Problem Solver"
           tagline="Yes, I work to fix things"
           info="I almost cannot allow myself to let a problem go unsolved. I'll wrack by brain for hours figuring out different
           possible solutions, searching the web for answers, and talking with others and brainstorming together. Even if that means
           coming back to the problem with a fresh mindset at a later time, a problem I run into will not go unsolved."
+          className="About-cards"
         />
+
         <Cards
           title=" A Power Lifter"
           tagline="Heavy Circles Are Fun"
@@ -23,10 +25,10 @@ const About = () => {
         />
 
         <Cards
-          title=" A People Person"
+          title=" A Collaborator"
           tagline="Working with others is the reward"
           info="I believe that some (not all) of the best solutions come from collboration. Talking with one another, picking each other's
-          brain, and "
+          brains, and coming together to find out an effective answer to the problem ahead of us. "
         />
         <Cards
           title="Persistence"

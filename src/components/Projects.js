@@ -11,14 +11,16 @@ const Projects = () => {
       <main className="Projects-main">
         <h2 style={h1Style}>PROJECTS</h2>
         <div className="Projects-grid">
-          <ProjectCards
-            projectTitle="Kilometer to Pounds Converter"
-            projectComment="React, React-Redux, TailwindCSS"
-            projectInfo="I wanted to accomplish 2 things with this project; Learn React-Redux and Tailwind CSS, along
-          with solving a common problem among powerlifters. Converting Kilos to LBs easily. "
-            liveSiteLink="https://fraustob.github.io/kilo-counter-deployment/"
-            sourceCodeLink="https://github.com/FraustoB/kilo-counter-deployment"
-          />
+          <div className="Projects-card-hover">
+            <ProjectCards
+              projectTitle="Kilometer to Pounds Converter"
+              projectComment="React, React-Redux, TailwindCSS"
+              projectInfo="I wanted to accomplish 2 things with this project; Learn React-Redux and Tailwind CSS, along
+                  with solving a common problem among powerlifters. Converting Kilos to LBs easily. "
+              liveSiteLink="https://fraustob.github.io/kilo-counter-deployment/"
+              sourceCodeLink="https://github.com/FraustoB/kilo-counter-deployment"
+            />
+          </div>
           <ProjectCards
             projectTitle="Macro Calculator"
             projectComment="Next, React, Sass"

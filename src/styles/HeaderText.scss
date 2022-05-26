@@ -5,7 +5,7 @@ $base-color: azure;
   display: block;
   margin: 4rem 0 0 0;
   @media screen and (min-width: 768px) {
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
 }
 
@@ -24,6 +24,10 @@ $base-color: azure;
 
   @media screen and (min-width: 768px) {
     font-size: 8rem;
+  }
+  @media screen and (min-width: 1800px) {
+    font-size: 9rem;
+    margin-left: 5rem;
   }
 
   div {
@@ -60,7 +64,12 @@ $base-color: azure;
   width: 20rem;
   // outline: 1px solid blue;
   @media screen and (min-width: 768px) {
+    padding-top: 0;
     width: 35rem;
+  }
+  @media screen and (min-width: 1800px) {
+    width: 55rem;
+    margin-left: 6rem;
   }
 }
 .Main-text {
@@ -71,6 +80,9 @@ $base-color: azure;
   font-style: Helvetica;
   @media screen and (min-width: 768px) {
     font-size: 4rem;
+  }
+  @media screen and (min-width: 1800px) {
+    font-size: 6rem;
   }
 
   // outline: 1px red solid;

@@ -2,6 +2,9 @@
   min-height: 100vh;
   background-color: #73797d;
   padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   @media screen and (min-width: 768px) {
     padding-top: 6.5rem;
   }
@@ -11,18 +14,34 @@
 }
 
 .About-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @media screen and (min-width: 1800px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4rem;
+    padding-top: 3rem;
+    font-size: 1.25rem;
+  }
 }
 
 .h1,
 h2 {
   font-family: League Spartan;
   color: azure;
+  text-align: center;
+  @media screen and (min-width: 1800px) {
+    font-size: 4rem;
+    padding-top: 2rem;
+  }
 }
 
 .h1 {
   display: flex;
   margin-bottom: 1rem;
+}
+
+.About-cards {
+  transition-duration: 0.5s;
+}
+.About-cards:hover {
+  transform: translatey(-10px);
 }
