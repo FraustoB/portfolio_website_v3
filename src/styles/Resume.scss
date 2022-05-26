@@ -20,6 +20,11 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 2rem;
+  @media screen and (min-width: 768px) {
+    a {
+      font-size: 3rem;
+    }
+  }
 }
 
 .Resume-main {
@@ -29,4 +34,7 @@
 
 h1 {
   color: azure;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 5rem;
+  }
 }

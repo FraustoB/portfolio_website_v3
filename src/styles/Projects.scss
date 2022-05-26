@@ -1,8 +1,25 @@
 .Projects-main {
   min-height: 100vh;
+  padding-bottom: 2rem;
+  background-color: #73797d;
+  padding-top: 1rem;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 2rem;
+    h2 {
+      font-size: 3rem;
+    }
+  }
+}
+
+.Projects-grid {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 2rem;
-  background-color: #73797d;
+
+  // @media screen and (min-width: 768px) {
+  //   display: grid;
+  //   justify-content: center;
+  //   grid-template-columns: 1fr 1fr;
+  // }
 }

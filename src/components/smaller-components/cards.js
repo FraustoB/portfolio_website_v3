@@ -1,3 +1,5 @@
+import useWindowDimensions from "./useWindowDimensions";
+
 const Cards = ({ title, tagline, info }) => {
   return (
     <div className="card text-white bg-dark mb-3 cdardle">

@@ -1,3 +1,4 @@
+import useWindowDimensions from "../smaller-components/useWindowDimensions";
 const ProjectCards = ({
   projectTitle,
   projectComment,
@@ -5,9 +6,30 @@ const ProjectCards = ({
   liveSiteLink,
   sourceCodeLink,
 }) => {
+  const { height, width } = useWindowDimensions();
+  console.log(height, width);
+
+  let divSize = "18rem";
+
+  const resizeDiv = (divSize, width) => {
+    if (width < 768) {
+      divSize = "20rem";
+      return divSize;
+    } else if (width >= 768 && width < 1024) {
+      divSize = "29rem";
+    } else if (width >= 1024) {
+      divSize = "24rem";
+    }
+    return divSize;
+  };
+
+  let curDiv = resizeDiv(divSize, width);
+
   const divStyle = {
-    width: "18rem",
+    width: curDiv,
     marginTop: "1rem",
+    fontSize: "1.25rem",
+    marginBottom: "2rem",
   };
   const linkStyle = {
     background: "#7a7c80",
@@ -20,6 +42,7 @@ const ProjectCards = ({
   const h2Style = {
     fontWeight: "600",
   };
+
   return (
     <div>
       <div className="card text-dark bg-white" style={divStyle}>

@@ -1,0 +1,13 @@
+.Navbar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Navbar-text {
+  font-size: 1rem;
+  margin: 0;
+  @media screen and(min-width: 768px) {
+    font-size: 2rem;
+  }
+}

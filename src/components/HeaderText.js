@@ -4,7 +4,7 @@ import "../styles/HeaderText.scss";
 const HeaderText = () => {
   return (
     <div id="Intro" className="HeaderText-main">
-      <main>
+      <main className="HeaderText-subMain">
         <h1 className="Name-text">
           <div>Brandon</div>
           <div>Shin</div>
