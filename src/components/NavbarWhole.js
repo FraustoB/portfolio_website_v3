@@ -15,7 +15,7 @@ const NavbarWhole = () => {
     marginRight: "0.5rem",
   };
   return (
-    <Navbar bg="dark" variant="dark" fixed="top">
+    <Navbar bg="dark" variant="dark" sticky="top">
       <Container className="Navbar-container">
         <Nav className="me-auto">
           <Navbar.Brand

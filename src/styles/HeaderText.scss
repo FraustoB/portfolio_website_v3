@@ -3,7 +3,7 @@ $base-color: azure;
 .HeaderText-main {
   height: 100vh;
   display: block;
-  margin: 4rem 0 0 0;
+  margin: 0.5rem 0 0 0;
   @media screen and (min-width: 768px) {
     padding-top: 2rem;
   }
@@ -111,6 +111,38 @@ $base-color: azure;
   }
 }
 
+.HeaderText-arrow {
+  font-size: 5rem;
+  color: azure;
+  padding-top: 2rem;
+
+  animation: MoveUpDown 4s linear infinite, fadeIn 6s;
+  position: absolute;
+
+  left: 9.75rem;
+  bottom: 0;
+  @media screen and (min-width: 400px) {
+    visibility: hidden;
+  }
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* The typewriter cursor effect */
 
 // .Header-Underscore {
