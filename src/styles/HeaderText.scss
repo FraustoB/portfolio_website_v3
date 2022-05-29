@@ -5,7 +5,10 @@ $base-color: azure;
   display: block;
   margin: 0.5rem 0 0 0;
   @media screen and (min-width: 768px) {
-    padding-top: 2rem;
+    padding-top: 1rem;
+  }
+  @media screen and (min-width: 1800px) {
+    padding-top: 0.5rem;
   }
 }
 
