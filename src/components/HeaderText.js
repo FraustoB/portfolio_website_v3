@@ -19,14 +19,16 @@ const HeaderText = () => {
         >
           Resume
         </a> */}
-
-        <div className="Header-P">
-          <div className="Main-text">
-            {`<`}Web Developer{`/>`}
-          </div>
-          {/* <span className="Header-Underscore">{`_`}</span> */}
-        </div>
       </main>
+      <div className="Header-P">
+        <div className="Main-text">
+          <h2 className="slide-right">
+            {`<`}Web Developer{`/>`}
+          </h2>
+        </div>
+        {/* <span className="Header-Underscore">{`_`}</span> */}
+      </div>
+
       <div className="HeaderText-arrow">
         <BsArrowDownSquareFill />
       </div>

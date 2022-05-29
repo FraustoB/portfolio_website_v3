@@ -7,7 +7,6 @@ const ProjectCards = ({
   sourceCodeLink,
 }) => {
   const { height, width } = useWindowDimensions();
-  console.log(height, width);
 
   let divSize = "18rem";
 

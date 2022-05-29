@@ -58,56 +58,47 @@ $base-color: azure;
 
 .Header-P {
   color: white;
-  font-style: League Spartan;
   padding-top: 4rem;
   padding-right: -1rem;
-  width: 20rem;
-  // outline: 1px solid blue;
+  width: 100vw;
+
   @media screen and (min-width: 768px) {
     padding-top: 0;
-    width: 35rem;
+    width: 90%;
   }
   @media screen and (min-width: 1800px) {
-    width: 55rem;
+    width: 100%;
     margin-left: 6rem;
   }
 }
+
 .Main-text {
   color: $base-color;
-  font-size: 2.3rem;
   margin: 2rem 0.5rem 0.8rem;
   text-align: left;
-  font-style: Helvetica;
-  @media screen and (min-width: 768px) {
-    font-size: 4rem;
-  }
-  @media screen and (min-width: 1800px) {
-    font-size: 6rem;
-  }
-
-  // outline: 1px red solid;
-  border-right: 0.1em solid white; /* The typwriter cursor */
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-
-  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
+  width: 100%;
+  overflow: hidden;
+  h2 {
+    width: 90%;
+    font-weight: 100;
+    font-style: League Spartan;
+    letter-spacing: 0.01rem;
+    @media screen and (min-width: 768px) {
+      font-size: 4rem;
+      width: 40rem;
+      overflow: visible;
+    }
+    @media screen and (min-width: 1800px) {
+      font-size: 6rem;
+      width: 50%;
+    }
+    animation: 2s slide-right 2s forwards;
+    transform: translateX(-100%);
   }
 }
-@keyframes blink-caret {
-  from,
+@keyframes slide-right {
   to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: white;
+    transform: translateX(0);
   }
 }
 
