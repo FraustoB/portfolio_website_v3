@@ -5,7 +5,6 @@ import Cards from "./smaller-components/cards";
 const About = () => {
   return (
     <div id="About" className="About-container">
-      <div className="h1">Who am I?</div>
       <h2>I am... </h2>
       <main className="About-main">
         <Cards
