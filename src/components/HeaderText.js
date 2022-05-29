@@ -23,7 +23,7 @@ const HeaderText = () => {
       <div className="Header-P">
         <div className="Main-text">
           <h2 className="slide-right">
-            {`<`}Web Developer{`/>`}
+            {`<`} Web Developer{`/>`}
           </h2>
         </div>
         {/* <span className="Header-Underscore">{`_`}</span> */}

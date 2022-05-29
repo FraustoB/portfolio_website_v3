@@ -81,16 +81,16 @@ $base-color: azure;
   h2 {
     width: 90%;
     font-weight: 100;
-    font-style: League Spartan;
-    letter-spacing: 0.01rem;
+    font-style: arial;
+    letter-spacing: 0.03rem;
     @media screen and (min-width: 768px) {
       font-size: 4rem;
-      width: 40rem;
+      width: 45rem;
       overflow: visible;
     }
     @media screen and (min-width: 1800px) {
       font-size: 6rem;
-      width: 50%;
+      width: 55%;
     }
     animation: 2s slide-right 2s forwards;
     transform: translateX(-100%);
