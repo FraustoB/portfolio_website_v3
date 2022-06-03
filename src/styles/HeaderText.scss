@@ -9,6 +9,7 @@ $base-color: azure;
   }
   @media screen and (min-width: 1800px) {
     padding-top: 0.5rem;
+    display: flex;
   }
 }
 
@@ -71,7 +72,6 @@ $base-color: azure;
   }
   @media screen and (min-width: 1800px) {
     width: 100%;
-    margin-left: 6rem;
   }
 }
 
@@ -81,6 +81,11 @@ $base-color: azure;
   text-align: left;
   width: 100%;
   overflow: hidden;
+  @media screen and (min-width: 1800px) {
+    margin-left: 1rem;
+    margin-top: 13rem;
+    width: 120%;
+  }
   h2 {
     width: 90%;
     font-weight: 100;
@@ -93,7 +98,7 @@ $base-color: azure;
     }
     @media screen and (min-width: 1800px) {
       font-size: 6rem;
-      width: 55%;
+      width: 80%;
     }
     animation: 2s slide-right 2s forwards;
     transform: translateX(-100%);
@@ -137,19 +142,3 @@ $base-color: azure;
     opacity: 1;
   }
 }
-/* The typewriter cursor effect */
-
-// .Header-Underscore {
-//   animation: blink-animation 0.75s steps(5, start) infinite;
-//   margin-left: -1rem;
-//   font-style: helvetica;
-//   color: white;
-//   font-size: 4rem;
-//   outline: 1px solid red;
-//   padding-top: none;
-// }
-// @keyframes blink-animation {
-//   to {
-//     visibility: hidden;
-//   }
-// }

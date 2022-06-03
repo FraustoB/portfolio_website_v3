@@ -11,22 +11,14 @@ const HeaderText = () => {
           <div className="HeaderText-animation">Shin</div>
           <div className="HeaderText-animation">Frausto</div>{" "}
         </h1>
-
-        {/* <a
-          className="Header-Resume"
-          href="https://docs.google.com/document/d/1oioq11blSa_0rQY0p_s70JdyeM1fAd2SAdv_RqAn6II/edit#"
-          target="_blank"
-        >
-          Resume
-        </a> */}
       </main>
+
       <div className="Header-P">
         <div className="Main-text">
           <h2 className="slide-right">
             {`<`} Web Developer{`/>`}
           </h2>
         </div>
-        {/* <span className="Header-Underscore">{`_`}</span> */}
       </div>
 
       <div className="HeaderText-arrow">
