@@ -35,9 +35,9 @@ const Resume = () => {
             <div className="Resume-links">GitHub</div>
           </a>
         </div>
-        <footer>
+        {/* <footer>
           <a href="frausto.dev">frausto.dev</a>
-        </footer>
+        </footer> */}
       </main>
     </div>
   );
