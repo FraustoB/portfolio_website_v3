@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio_website_v3/static/css/main.0a02a6d3.css",
-    "main.js": "/portfolio_website_v3/static/js/main.96f54ede.js",
+    "main.css": "/portfolio_website_v3/static/css/main.99db56af.css",
+    "main.js": "/portfolio_website_v3/static/js/main.62f4d097.js",
     "static/js/787.8de483dc.chunk.js": "/portfolio_website_v3/static/js/787.8de483dc.chunk.js",
+    "static/media/B_Frausto_resume.pdf": "/portfolio_website_v3/static/media/B_Frausto_resume.2a0d5f452913d50059fb.pdf",
     "static/media/LeagueSpartan-Bold.otf": "/portfolio_website_v3/static/media/LeagueSpartan-Bold.caadcad8af387d419251.otf",
     "index.html": "/portfolio_website_v3/index.html",
-    "main.0a02a6d3.css.map": "/portfolio_website_v3/static/css/main.0a02a6d3.css.map",
-    "main.96f54ede.js.map": "/portfolio_website_v3/static/js/main.96f54ede.js.map",
+    "main.99db56af.css.map": "/portfolio_website_v3/static/css/main.99db56af.css.map",
+    "main.62f4d097.js.map": "/portfolio_website_v3/static/js/main.62f4d097.js.map",
     "787.8de483dc.chunk.js.map": "/portfolio_website_v3/static/js/787.8de483dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a02a6d3.css",
-    "static/js/main.96f54ede.js"
+    "static/css/main.99db56af.css",
+    "static/js/main.62f4d097.js"
   ]
 }
