@@ -1,6 +1,7 @@
 import "../styles/Resume.scss";
 import { BiSpreadsheet } from "react-icons/bi";
 import { FaLinkedin, FaGithubAlt } from "react-icons/fa";
+import pdf from "./B_Frausto_resume.pdf";
 
 const Resume = () => {
   return (
@@ -8,11 +9,7 @@ const Resume = () => {
       <main className="Resume-main">
         <h1>Connect With Me</h1>
         <div className="Resume-grid">
-          <a
-            href="https://docs.google.com/document/d/1oioq11blSa_0rQY0p_s70JdyeM1fAd2SAdv_RqAn6II/edit?usp=sharing"
-            target="_blank"
-            className="Icons-container"
-          >
+          <a href={pdf} target="_blank" className="Icons-container">
             <BiSpreadsheet size={100} />
             <div className="Resume-links">RESUME</div>
           </a>
