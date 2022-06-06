@@ -15,7 +15,7 @@ const Projects = () => {
             <ProjectCards
               projectTitle="Kilometer to Pounds Converter"
               projectComment="React, React-Redux, TailwindCSS"
-              projectInfo="I wanted to accomplish 2 things with this project; Learn React-Redux and Tailwind CSS, along
+              projectInfo="I wanted to accomplish 2 things with this project: Learn React-Redux and Tailwind CSS, along
                   with solving a common problem among powerlifters. Converting Kilos to LBs easily. "
               liveSiteLink="https://fraustob.github.io/kilo-counter-deployment/"
               sourceCodeLink="https://github.com/FraustoB/kilo-counter-deployment"
@@ -28,7 +28,7 @@ const Projects = () => {
               projectComment="Next, React, Sass"
               projectInfo="The goal of this project was to give clients of mine a very easy way of
           calculating how many calories they need to be eating in a day to gain, lose, or maintain weight. Along with
-          breaking downt he macro-nutrients (Protein, Carbs, Fats) they would need to consume to meet those goals "
+          breaking down the macro-nutrients (Protein, Carbs, Fats) they would need to consume to meet those goals. "
               liveSiteLink="https://tdee-macro-app-70d1n75s8-fraustob.vercel.app/"
               sourceCodeLink="https://github.com/FraustoB/TDEE_MACRO_app"
             />
@@ -37,7 +37,7 @@ const Projects = () => {
             <ProjectCards
               projectTitle="WonTonSoup Proof of concept Site"
               projectComment="Next, React, Sass"
-              projectInfo="Wante practice with Next, React, and Sass, along with playing around with mobile-friendly layouts and 
+              projectInfo="Wanted practice with Next, React, and Sass, along with playing around with mobile-friendly layouts and 
           practices."
               liveSiteLink="https://wonton-website.vercel.app/"
               sourceCodeLink="https://github.com/FraustoB/wonton-website"

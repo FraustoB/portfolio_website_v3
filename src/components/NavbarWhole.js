@@ -19,7 +19,7 @@ const NavbarWhole = () => {
       <Container className="Navbar-container">
         <Nav className="me-auto">
           <Navbar.Brand
-            href="/Intro"
+            href="#Intro"
             className="Navbar-text"
             style={logoStyles}
           >{`</f.d>`}</Navbar.Brand>

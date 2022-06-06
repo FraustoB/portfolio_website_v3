@@ -33,7 +33,7 @@ const About = () => {
           title="Persistent"
           tagline="The world keeps growing and so will I"
           info="Life is changing all the time; new technologies are being created, shipped, and integrated. And my goal is to stay at the forefront 
-          of those changes. I continue to adapt by researching, learning, and implementing  "
+          of those changes. I continue to adapt by researching, learning, and implementing.  "
         />
       </main>
     </div>
