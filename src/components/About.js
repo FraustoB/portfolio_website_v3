@@ -20,7 +20,7 @@ const About = () => {
           title=" A Power Lifter"
           tagline="Heavy Circles Are Fun"
           info="Power lifting has been an enjoyable hobby of mine for over a year now. Not only is training
-          for competitive meets incredibly enjoyable, the community itslef would be the highlight of the sport."
+          for competitive meets incredibly enjoyable, the community itself would be the highlight of the sport."
         />
 
         <Cards
@@ -32,7 +32,7 @@ const About = () => {
         <Cards
           title="Persistent"
           tagline="The world keeps growing and so will I"
-          info="Life is changing all the time; new technologies are being created, shipped, and integrated. And my goal is to stay at the forefront 
+          info="Life is changing all the time; new technologies are being created, shipped, and integrated. My goal is to stay at the forefront 
           of those changes. I continue to adapt by researching, learning, and implementing.  "
         />
       </main>

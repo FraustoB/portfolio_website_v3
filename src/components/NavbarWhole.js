@@ -33,7 +33,7 @@ const NavbarWhole = () => {
             <p className="Navbar-text">Projects</p>
           </Nav.Link>
           <Nav.Link href="#Resume" style={navStyles}>
-            <p className="Navbar-text">Contact</p>
+            <p className="Navbar-text">Connect</p>
           </Nav.Link>
         </Nav>
       </Container>

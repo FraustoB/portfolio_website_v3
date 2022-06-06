@@ -7,11 +7,11 @@ const Resume = () => {
   return (
     <div id="Resume" className="Resume-container">
       <main className="Resume-main">
-        <h1>Connect With Me</h1>
+        <h1>Connect</h1>
         <div className="Resume-grid">
           <a href={pdf} target="_blank" className="Icons-container">
             <BiSpreadsheet size={100} />
-            <div className="Resume-links">RESUME</div>
+            <div className="Resume-links">Resume</div>
           </a>
 
           <a
@@ -32,6 +32,7 @@ const Resume = () => {
             <div className="Resume-links">GitHub</div>
           </a>
         </div>
+
         {/* <footer>
           <a href="frausto.dev">frausto.dev</a>
         </footer> */}
